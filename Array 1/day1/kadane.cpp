@@ -6,7 +6,7 @@
             j=j+nums[i];
             if(nums[i]>j)j=nums[i];
             c=std::max(c,j);
-            maxsub=max(maxsub,c);
+            maxsub=std::max(maxsub,c);
         }
         return maxsub;
     }
